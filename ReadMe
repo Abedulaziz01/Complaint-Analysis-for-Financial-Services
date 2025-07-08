@@ -43,3 +43,11 @@ Text Embedding: Use Sentence-Transformers to convert complaint narratives into v
 Index Creation: Build a FAISS index to enable fast similarity search.
 
 Storage: Save the FAISS index for later use.
+
+3. Building the RAG Pipeline
+   Objective: Integrate a Retriever and Generator for live Q&A.
+   Retriever: Use FAISS (or ChromaDB) to retrieve the top k complaint chunks based on the user's query.
+
+Generator: Use FLAN-T5 to generate answers from the retrieved complaint chunks.
+
+Prompting: Build a clear prompt that combines the retrieved chunks and the user’s question.
