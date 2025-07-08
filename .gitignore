@@ -1,0 +1,3 @@
+# ignore data files and .venv
+data/
+.venv/
