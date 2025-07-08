@@ -36,3 +36,10 @@ Tools:
 Pandas, Numpy for data manipulation
 
 Regex for text cleaning
+Building the FAISS Index
+Objective: Create a vector store to retrieve similar complaint chunks.
+Text Embedding: Use Sentence-Transformers to convert complaint narratives into vector representations.
+
+Index Creation: Build a FAISS index to enable fast similarity search.
+
+Storage: Save the FAISS index for later use.
