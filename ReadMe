@@ -1,0 +1,4 @@
+📊 Complaint Q&A Assistant - RAG Model (Retriever + Generator)
+This project utilizes a Retrieval-Augmented Generation (RAG) pipeline to answer customer complaints related to financial products. By integrating FAISS (or ChromaDB) for efficient vector search, and FLAN-T5 for text generation, the system answers questions from real complaint data.
+
+The Gradio interface provides a user-friendly platform for live Q&A.
