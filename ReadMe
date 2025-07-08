@@ -51,3 +51,11 @@ Storage: Save the FAISS index for later use.
 Generator: Use FLAN-T5 to generate answers from the retrieved complaint chunks.
 
 Prompting: Build a clear prompt that combines the retrieved chunks and the user’s question.
+
+Gradio UI for Live Q&A
+Objective: Build a Gradio interface for interactive Q&A.
+User Input: Allows users to type their questions.
+
+Answer Generation: Uses the RAG pipeline to generate answers based on retrieved complaint chunks.
+
+Display: Shows both the answer and the relevant context.
