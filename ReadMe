@@ -2,3 +2,37 @@
 This project utilizes a Retrieval-Augmented Generation (RAG) pipeline to answer customer complaints related to financial products. By integrating FAISS (or ChromaDB) for efficient vector search, and FLAN-T5 for text generation, the system answers questions from real complaint data.
 
 The Gradio interface provides a user-friendly platform for live Q&A.
+
+chnologies Used
+Exploratory Data Analysis (EDA): Data cleaning, processing, and feature extraction to prepare customer complaints for use in a machine learning model.s
+
+FAISS (or ChromaDB) for efficient nearest neighbor search and retrieval of similar complaint chunks.
+
+Sentence-Transformers for embedding textual data (turning customer complaints into vector representations).
+
+FLAN-T5 (via Hugging Face’s Transformers) for natural language text generation.
+
+Gradio for the interactive user interface.
+
+📌 Steps Involved in the Project
+
+1. Exploratory Data Analysis (EDA)
+   Objective: Understand and clean the data.
+   Data Collection: Collect customer complaints, including Narrative Text, Product, Sub-product, and Issue details.
+
+Data Cleaning:
+
+Handle missing values, duplicate rows, and irrelevant data.
+
+Preprocess narrative text: lowercasing, removing special characters, and boilerplate text (e.g., "Dear Sir/Madam").
+
+Feature Extraction:
+
+Split complaints into meaningful chunks.
+
+Identify and clean categorical variables like product names.
+
+Tools:
+Pandas, Numpy for data manipulation
+
+Regex for text cleaning
